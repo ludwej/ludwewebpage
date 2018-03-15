@@ -1,0 +1,233 @@
+
+
+body{
+
+    font-size: 1em ;
+    font-family: sans-serif;
+    background-color: lightgreen;
+    text-align: center;
+    margin-left: 10% ;
+    margin-right: 10% ;
+
+
+
+
+
+      }
+      .container{
+              margin: auto;
+
+              background-color: lightgrey ;
+
+
+
+
+
+      }
+
+
+
+
+      .Greeny {
+
+              padding: 70px ;
+              padding-bottom: 98px;
+              border-bottom: 1px solid black ;
+
+
+
+}
+
+
+      .Greeny img {
+        max-width: 320px ;
+        height: 10em ;
+        width: 10em ;
+        float: right;
+
+}
+.favCity {
+    padding: 50px;
+    word-break: keep-all;
+
+}
+
+.Effel {
+  height: 10em ;
+  width: 10em ;
+  float: left;
+  display: inline;
+
+
+}
+
+
+/*float: right;
+display: inline ;
+height :5em ;
+width : 5em 10
+margin-left: 150px;
+margin-right: -150px;
+*/
+
+.foreignlanguage table {
+    border: 1px solid black ;
+    border-collapse:collapse ;
+    width : 60% ;
+    text-align: center;
+    tab-size: 10em ;
+
+
+
+}
+
+.foreignlanguage th {
+      padding: 10px ;
+      text-align: center
+      border: 1px solid black ;
+      background-color: black ;
+      color: white ;
+      text-align: center;
+      border-collapse: collapse;
+
+}
+.foreignlanguage {
+  padding: 60px ;
+
+
+}
+
+
+.foreignlanguage
+table ,td , th{
+  border: 1px solid;
+
+  padding: 5px;
+  border-collapse: collapse;
+  align:center;
+}
+th, td{
+
+  text-align: left;
+}
+
+.myHistoricalPlace{
+  width:100%;
+}
+
+.izikolodge{
+  width:100%;
+}
+
+.izikolodge img{
+
+width:80%;
+}
+
+.Castle{
+  width: 100%;
+}
+
+.Castle img{
+  width:80%;
+}
+
+.GreenMarket{
+  width:100%;
+}
+
+.GreenMarket img{
+  width:80%;
+}
+/*
+
+.myHistoricalPlace{
+
+  width: 100%;
+}
+
+
+.CastleOfGoodhope  {
+
+  height: 10em ;
+  width: 10em ;
+  float: right;
+
+
+
+
+
+
+}
+.izikolodge {
+
+
+float: right;
+
+}
+.Iziko{
+  height: 10em ;
+  width: 10em ;
+  float: left;
+
+
+
+
+
+
+}
+.GreenMarket {
+    float: left;
+
+}
+
+.GreenMarket img {
+  height: 10em ;
+  width: 10em ;
+  float: right;
+
+
+}
+.myHistorical{
+  display: inline-block;
+  width:100% ;
+ width: 32%;
+  height:auto;
+
+
+
+
+}
+*/
+@media (min-width: 550px){
+
+  .izikolodge{
+    width:25%;
+    display: inline-block;
+  }
+
+  .izikolodge img{
+
+  width:40%;
+  }
+
+  .Castle{
+    width: 25%;
+    display: inline-block;
+  }
+
+  .Castle img{
+    width:40%;
+  }
+
+  .GreenMarket{
+    width:25%;
+
+    display: inline-block;
+  }
+
+  .GreenMarket img{
+    width:80%;
+    margin-bottom:2em;
+  }
+}
